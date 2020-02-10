@@ -19,8 +19,8 @@ function pressIt(){
 }
 
 function submitIt(){
-  $("form").on("submit", function(){
-    alert("Your form is going to be submitted not.")
+  $(ow."form").on("submit", function(){
+    alert("Your form is going to be submitted n")
   })
 }
 
