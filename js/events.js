@@ -11,8 +11,10 @@ function frameIt(){
 }
 
 function pressIt(){
-   $("p").on("keydown", function(){
-    alert("Hey!")
+   $("p").on("keydown", function(key){
+    if(key.which === 71){
+      alert("G was pressed")
+    }
   })
 }
 
